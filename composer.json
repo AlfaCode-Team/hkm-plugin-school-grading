@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-school-grading",
+    "description": "Marks and maxima. Owns the TWO grading systems (3 trimesters vs 2 sessions) resolved through the catalog, never by regex.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\SchoolGrading\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\SchoolGrading\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

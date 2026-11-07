@@ -1,0 +1,22 @@
+{
+    "name": "school-grading",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.grading",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.classes",
+        "school.curriculum",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolGrading\\API\\Contracts\\SchoolGradingContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Marks and maxima. Owns the TWO grading systems (3 trimesters vs 2 sessions) resolved through the catalog, never by regex.",
+    "config": []
+}
