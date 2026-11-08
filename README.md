@@ -7,6 +7,8 @@ Marks and maxima. Owns the TWO grading systems (3 trimesters vs 2 sessions) reso
 
 ## Status
 
+> Full detail: [`docs/PORT.md`](docs/PORT.md).
+
 **The period model is ported and verified. Marks and maxima are not.**
 
 | Piece | State |
